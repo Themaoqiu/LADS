@@ -15,7 +15,7 @@ from omegaconf import OmegaConf
 import helpers.data_helpers as dh
 import methods.clip_transformations as CLIPTransformations
 from utils import read_unknowns, nest_dict
-from clip_utils import get_features, evaluate, zeroshot_classifier, get_ensamble_preds, get_pred_overlap, get_nn_metrics
+from clip_utils import get_features, evaluate, zeroshot_classifier, get_ensamble_preds, get_pred_overlap, get_nn_metrics, load_embeddings
 import methods.augmentations
 
 parser = argparse.ArgumentParser(description='CLIP Advice')
